@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: black url('/static/images/work1.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  }
+
+#bio {
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+#contact{
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+.project{
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+p {
+	color: rgb(0, 0, 0);
+	font-family: Shanti;
+	font-size: 0.8em;
+	margin: 5px;
+}
+
+h1{
+	color: rgb(1, 86, 255);
+	font-size: 2.3em;
+}

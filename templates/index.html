@@ -1,0 +1,36 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Karthick Raja Radhakrishnan</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<a class="navbar-left m-1 float-end" href='/contact'>
+    <img src="{{url_for('static', filename='images/contact.png')}}">
+</a>
+<a class="navbar-left float-end m-1" href='https://www.linkedin.com/in/krr7/' target="_blank">
+    <img src="{{url_for('static', filename='images/linkedin.png')}}">
+</a>
+<a class="navbar-left float-end m-1" href='https://github.com/karthick96' target="_blank">
+    <img src="{{url_for('static', filename='images/github.png')}}">
+</a>
+<a class="navbar-left float-end m-1" href='/portfolio'>
+    <img src="{{url_for('static', filename='images/portfolio.png')}}">
+</a>
+<br>
+<div id="bio">
+<h1>Karthick Raja Radhakrishnan<h1>
+<hr>
+<p>👋 Hi, I’m a Data Analyst.<br>
+    👀 I’m interested in Python for Data analytics (Machine Learning, Computer Vision, NLP,..)<br>
+    🌱 I’m currently learning Advanced Analytics technqiues.<br>
+    Actively looking for an analytics job! <br>
+    This website is to showcase my portfolio!<br>
+    You can also connect with me via social media in the appropriate links provided above.<br>
+    <br>
+    Please click <a href="/portfolio">here</a> for my portfolio.
+</p>
+</div>
+
+{% endblock %}
